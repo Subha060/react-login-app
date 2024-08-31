@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { Menu, X } from 'lucide-react'
+// import React from 'react'
 import NavBar from './components/navBar'
 import SignInThree from './components/SignInThree'
 
