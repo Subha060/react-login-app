@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import '../App.css'; // Import your CSS file
 
 const MouseCursor = () => {
@@ -6,7 +6,7 @@ const MouseCursor = () => {
   const [isVisible, setIsVisible] = useState(window.innerWidth > 700);
 
   useEffect(() => {
-    const updatePosition = (e) => {
+    const updatePosition = (e: MouseEvent) => {
       setMousePosition({
         x: e.clientX,
         y: e.clientY

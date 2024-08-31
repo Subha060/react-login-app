@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 
 
@@ -6,7 +6,7 @@ import React, { useState, useEffect } from 'react';
 
 
 
-function modeChange(isChecked) {
+function modeChange(isChecked: boolean) {
     if (isChecked) {
         document.body.classList.add('dark-mode');
     } else {
